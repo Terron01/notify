@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    overflow-x:hidden;
+}
+
+header{
+    padding:  0 100px;
+    background-image: url(../img/background.png);
+    margin: 0%;
+    color: white;
+    overflow: auto;
+    border-top: 10px solid #00cf77;
+    height: 540px;
+}
+.mão{
+    display: flex;
+flex-direction: inherit
+}
+
+header div:nth-child(1){
+    padding-top: 80px;
+    width: 60%;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    margin: 0%;
+    font-size: 3.5rem;
+    margin-top: 68px;
+    font-weight: 100;
+    padding-left: 28px;
+}
+
+p{
+    padding-top: 14px;
+    line-height: 30px;  
+    font-weight: 500;
+    padding-left: 28px;
+}
+
+#icons{
+    padding-top: 10px;
+    padding-left: 28px;
+}
+
+#icons img{
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 50px;
+    padding: 13px;
+}
+
+span{
+    color: #00cf77;
+}
+
+#icons img:hover{
+    background-color: #00cf77;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+section div p{
+    font-size: 15px;
+}
+
+#titulo{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.amigos {
+    width: 100px;
+    height: 100px;
+}
+
+
+.ppp div img{
+    background-color: #00cf77;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+
+
+@media  (max-width: 700px) {
+    
+    body{
+        height: 3335px;
+        width: 731px;
+    }
+    
+    header{
+        height: 500px;
+    }
+    
+    header div h1{
+        font-size: 32px;    
+    }
+    
+    section {
+        display: block;
+        padding-top: 40px;
+        text-align: center;  
+    }
+    
+    li{
+        align-items: center;
+        height: 100px;
+        width: 100px;
+        padding: 0 0 0 340px;
+    }
+}
+
+.sessao3{
+    background-color: lightgray;
+}
+
+input{
+    height: 40px;
+    list-style-type: none;
+    padding-right: 68px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    border: 0px;
+    height: 58px;
+}
+li{
+    display: flex;
+    justify-content: center;
+}
+
+
+#botao{
+    background-color: #00cf77;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    border: 0px;
+    color: white;
+    font-weight: 800;
+}
+
+#video{
+    padding: 0 50px;
+}
+
+.sessao4{
+    display: block;
+}
+
+section p{
+    font-size: 1rem;
+}
+
+#titulo2{
+    font-size: 2rem;
+}
+
+footer{
+    background-color: lightgray;
+    overflow: auto;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+footer div p:hover{
+    background-color: #00cf77;
+    cursor: pointer;
+}
+
+footer div p{
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.carousel-item{ 
+    display: flex; 
+    flex-direction: row;
+    
+ }
+.carousel-inner{ animation: caroseumovie 12s infinite alternate; } 
+@keyframes caroseumovie
+{ 
+0%{
+     transform: translateX(0); } 
+100%{ 
+    transform: translateX(-30vw); } 
+}
+.carousel{
+    background-color: rgba(0, 0, 255, 0);
+    padding: none;
+    border-radius: none
+}
